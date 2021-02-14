@@ -10,6 +10,7 @@ For more details, we refer to our [paper](https://mediatum.ub.tum.de/doc/1578845
 This repository is tested using Python 3.8 & pip3.
 - Clone the repo `git clone https://github.com/tum-fml/loco`
 - Download the dataset manually or use the provided [script]('utils/download.sh')
+- Unzip annotation files
 - Install the dependencies `pip3 install -r requirements.txt`
 - Spin up [Jupyter Lab](https://jupyter.org/) and run the demo notebook.
 
@@ -17,7 +18,7 @@ This repository is tested using Python 3.8 & pip3.
 ### Data
 The annotated dataset can be downloaded [here](https://go.mytum.de/239870). Furthermore, we also provide additional data (not annotated) [here](http://go.mytum.de/928009).
 ### Annotations 
-Annotations are stored in [COCO format](https://cocodataset.org/#format-data) under `rgb/loco-all-v1.json`. For ease of use, we also provide seperate annotation files for each subset. 
+Annotations are stored in [COCO format](https://cocodataset.org/#format-data) under `annotations/loco-all-v2.json`. For ease of use, we also provide seperate annotation files for train and validation set. 
 
 ## Credits & How to cite
 This project would not have been possible without the amazing team including Dimitrij-Marian Holm, Benjamin Molter, Nikolai Ruof and Mubashir Hanif as well as all the hardworking annotators.
