@@ -1,4 +1,5 @@
 .ipynb_checkpoints
 annotations/*.json
 annotations/archive
-dataset
+dataset/*
+!dataset/.gitkeep
