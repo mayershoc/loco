@@ -1,5 +1,6 @@
 .ipynb_checkpoints
 annotations/*.json
 annotations/archive
+annotations/darknet
 dataset/*
 !dataset/.gitkeep
